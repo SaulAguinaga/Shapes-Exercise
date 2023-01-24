@@ -1,0 +1,66 @@
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.shapes{
+    width: 30%;
+    justify-content: center;
+    align-content: center;
+}
+.figures{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+
+}
+
+.triangulo{
+    width: 0;
+    height: 0;
+    border-right: 3vw solid transparent;
+    border-bottom: 5vw solid #CCFF00;
+    border-left: 3vw solid transparent;
+    }
+.triangulo:hover{
+    border-bottom:5vw solid green;
+    transform: translateY(-2vw);
+}
+.triangulo:active{
+    border-bottom:5vw solid white;
+}
+.cuadrado{
+    background-color: #FF0000;
+    width: 5vw;
+    height: 5vw;
+}
+.cuadrado:hover{
+    background-color: brown;
+    transform: translateY(-2vw);
+}
+.cuadrado:active{
+    background-color:  white;
+}
+.circulo{
+    background-color: #5200FF ;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    }
+.circulo:hover{
+    background-color: midnightblue;
+    transform: translateY(-2vw);
+}
+.circulo:active{
+   background-color:  white;
+}
+
+button{
+    width: fit-content;
+    margin-top: 2%;
+    text-align: center;
+    
+}
